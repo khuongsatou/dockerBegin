@@ -4,6 +4,6 @@ WORKDIR /Users/apple/Desktop/python_project/dockerBegin
 
 COPY . .
 
-RUN pip install -r setup.txt
+RUN pip install flask
 
-CMD ["python","example_03.py"]
+CMD ["python","example_02.py"]
